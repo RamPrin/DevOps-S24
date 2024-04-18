@@ -1,4 +1,4 @@
-FROM python:3.11-alpine as base
+FROM python:3.12.3-alpine as base
 
 LABEL com.example.version="0.0.1"
 LABEL org.opencontainers.image.source="https://github.com/RamPrin/DevOps-S24"
