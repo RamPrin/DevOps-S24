@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine as base
+FROM golang:1.22.7-alpine as base
 
 LABEL com.example.version="0.0.1"
 LABEL org.opencontainers.image.source="https://github.com/RamPrin/DevOps-S24"
